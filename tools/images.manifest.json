@@ -1,0 +1,124 @@
+{
+  "hero": {
+    "widths": [
+      1240,
+      1653,
+      2600
+    ],
+    "avif": true
+  },
+  "why-kitchen": {
+    "widths": [
+      853,
+      1138,
+      1707,
+      2276
+    ],
+    "avif": true
+  },
+  "mat-quartz": {
+    "widths": [
+      360,
+      540,
+      630,
+      720,
+      945,
+      1260
+    ],
+    "avif": true
+  },
+  "mat-granite": {
+    "widths": [
+      346,
+      520,
+      692
+    ],
+    "avif": false
+  },
+  "mat-marble": {
+    "widths": [
+      360,
+      540,
+      630,
+      720,
+      945,
+      1200
+    ],
+    "avif": true
+  },
+  "mat-quartzite": {
+    "widths": [
+      325,
+      487,
+      650
+    ],
+    "avif": false
+  },
+  "mat-porcelain": {
+    "widths": [
+      346,
+      520,
+      692
+    ],
+    "avif": false
+  },
+  "rem-calacatta-valentin": {
+    "widths": [
+      367,
+      551,
+      734
+    ],
+    "avif": true
+  },
+  "rem-silver-roots": {
+    "widths": [
+      346,
+      520,
+      692
+    ],
+    "avif": true
+  },
+  "svc-kitchen": {
+    "widths": [
+      760,
+      1013,
+      1519,
+      2026
+    ],
+    "avif": true
+  },
+  "svc-bath": {
+    "widths": [
+      495,
+      660,
+      990,
+      1320
+    ],
+    "avif": true
+  },
+  "svc-islands": {
+    "widths": [
+      495,
+      660,
+      990,
+      1320
+    ],
+    "avif": true
+  },
+  "logo-emblem": {
+    "widths": [
+      62,
+      82,
+      123
+    ],
+    "avif": false
+  },
+  "logo-wordmark": {
+    "widths": [
+      160,
+      214,
+      321
+    ],
+    "avif": true
+  }
+}

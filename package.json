@@ -1,0 +1,20 @@
+{
+  "name": "stonix-landing",
+  "private": true,
+  "description": "Static site. Node is used only for local tooling (CSS/JS bundles, images, Lighthouse); the site has no build step on the host.",
+  "scripts": {
+    "serve": "python3 -m http.server 8765",
+    "lh": "sh tools/lighthouse.sh",
+    "lh:summary": "node tools/lh-summary.mjs",
+    "build:css": "python3 tools/scale-laptop.py && node tools/build-css.mjs",
+    "build:images": "node tools/optimize-images.mjs",
+    "build:js": "node tools/build-js.mjs",
+    "build": "npm run build:css && npm run build:js"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "lighthouse": "13.5.0",
+    "lightningcss": "1.33.0",
+    "sharp": "0.35.5"
+  }
+}
