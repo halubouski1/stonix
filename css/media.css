@@ -13,7 +13,7 @@
   }
 
   body {
-    font-size: 12px;
+    font-size: 13.5px;
   }
 
   :focus-visible {
@@ -22,26 +22,26 @@
   }
 
   .title {
-    font-size: 48px;
-    letter-spacing: -1.2px;
+    font-size: 54px;
+    letter-spacing: -1.35px;
   }
 
   .title--xl {
+    font-size: 81px;
+    letter-spacing: -2.835px;
+  }
+
+  .title--cta {
     font-size: 78px;
     letter-spacing: -2.73px;
   }
 
-  .title--cta {
-    font-size: 72px;
-    letter-spacing: -2.52px;
-  }
-
   .lead {
-    font-size: 13.5px;
+    font-size: 15px;
   }
 
   .note {
-    font-size: 9.75px;
+    font-size: 11.25px;
   }
 
   .icon {
@@ -85,11 +85,27 @@
     --icon-size: 18px;
   }
 
+  .icon--prev {
+    --icon-size: 16.5px;
+  }
+
+  .icon--next {
+    --icon-size: 16.5px;
+  }
+
+  .icon--close {
+    --icon-size: 15px;
+  }
+
+  .icon--check {
+    --icon-size: 30px;
+  }
+
   .btn {
     gap: 7.5px;
     padding: 14.25px 24px;
     border-radius: 749.25px;
-    font-size: 12px;
+    font-size: 13.5px;
   }
 
   .btn--outline {
@@ -124,7 +140,7 @@
 
   .nav {
     gap: 33px;
-    font-size: 12px;
+    font-size: 13.5px;
   }
 
   .header__actions {
@@ -140,14 +156,14 @@
   }
 
   .field__label {
-    font-size: 10.5px;
+    font-size: 12px;
   }
 
   .field__control {
     height: 42px;
     padding: 0 15px;
     border: 1px solid var(--c-line-14);
-    font-size: 12px;
+    font-size: 13.5px;
   }
 
   .field__control:focus-visible {
@@ -170,7 +186,7 @@
 
   .field__error {
     margin-top: 1.5px;
-    font-size: 9px;
+    font-size: 9.75px;
   }
 
   .footer {
@@ -186,20 +202,20 @@
   }
 
   .footer__head {
-    font-size: 10.5px;
+    font-size: 12px;
   }
 
   .footer__list {
     gap: 10.5px;
     margin-top: 22.5px;
-    font-size: 12px;
+    font-size: 13.5px;
   }
 
   .footer__bottom {
     margin-top: 48px;
     padding-top: 21px;
     border-top: 1px solid var(--c-line-14);
-    font-size: 10.5px;
+    font-size: 12px;
   }
 
   /* index.html */
@@ -210,15 +226,21 @@
   }
 
   .text {
-    font-size: 12px;
+    font-size: 13.5px;
+  }
+
+  .round-btn {
+    width: 42px;
+    height: 42px;
+    border: 1px solid var(--c-line-28);
   }
 
   .hero {
-    height: max(calc(var(--fixed-vh, 810px) - var(--header-h)), 480px);
+    height: max(calc(var(--fixed-vh, 810px) - var(--header-h)), 495px);
   }
 
   .hero__photo {
-    left: max(calc(50% + 72px), 759.75px);
+    left: max(calc(50% + 72px), 789.75px);
   }
 
   .hero__inner {
@@ -227,7 +249,7 @@
 
   .hero__lead {
     margin-top: 27px;
-    font-size: 15px;
+    font-size: 16.5px;
   }
 
   .hero__actions {
@@ -245,13 +267,13 @@
 
   .why__photo {
     top: 90px;
-    width: calc(min(50%, 100% - 720px) - 90px);
+    width: calc(min(50% - 15px, 100% - 735px) - 75px);
     height: 570px;
   }
 
   .why__content {
-    top: 144px;
-    left: min(50%, calc(100% - 720px));
+    top: 128.25px;
+    left: min(calc(50% - 15px), calc(100% - 735px));
   }
 
   .why__lead {
@@ -259,7 +281,7 @@
   }
 
   .points {
-    grid-template-columns: repeat(2, 279px);
+    grid-template-columns: repeat(2, 297px);
     gap: 36px;
     margin-top: 48px;
   }
@@ -271,12 +293,12 @@
   }
 
   .point__num {
-    font-size: 10.5px;
+    font-size: 12px;
   }
 
   .point__title {
-    font-size: 18px;
-    letter-spacing: -0.18px;
+    font-size: 19.5px;
+    letter-spacing: -0.195px;
   }
 
   .section {
@@ -298,8 +320,8 @@
 
   .tile__name {
     margin-top: 18px;
-    font-size: 22.5px;
-    letter-spacing: -0.338px;
+    font-size: 25.5px;
+    letter-spacing: -0.383px;
   }
 
   .tile__text {
@@ -325,8 +347,8 @@
 
   .service__name {
     margin-top: 18px;
-    font-size: 21px;
-    letter-spacing: -0.315px;
+    font-size: 24px;
+    letter-spacing: -0.36px;
   }
 
   .service__text {
@@ -338,7 +360,48 @@
     margin-top: 30px;
     padding-top: 21px;
     border-top: 1px solid var(--c-line-14);
-    font-size: 12px;
+    font-size: 13.5px;
+  }
+
+  .work__head {
+    gap: 30px;
+  }
+
+  .work__arrows {
+    gap: 9px;
+  }
+
+  .work__viewport {
+    margin-top: 42px;
+  }
+
+  .work__viewport:focus-visible {
+    outline-offset: -1.5px;
+  }
+
+  .work__track {
+    gap: 15px;
+  }
+
+  .work-card {
+    width: 465px;
+  }
+
+  .work-card--wide {
+    width: 570px;
+  }
+
+  .work-card--narrow {
+    width: 330px;
+  }
+
+  .work-card__media {
+    height: 450px;
+  }
+
+  .work-card__caption {
+    margin-top: 12px;
+    font-size: 15px;
   }
 
   .process__band {
@@ -357,18 +420,19 @@
   }
 
   .step__num {
-    font-size: 36px;
-    letter-spacing: -0.72px;
+    font-size: 40.5px;
+    letter-spacing: -0.81px;
   }
 
   .step__title {
     margin-top: 30px;
-    font-size: 16.5px;
-    letter-spacing: -0.165px;
+    font-size: 18px;
+    letter-spacing: -0.18px;
   }
 
   .step__text {
     margin-top: 9px;
+    margin-right: -18px;
   }
 
   .process__cta {
@@ -390,12 +454,12 @@
   }
 
   .count__num {
-    font-size: 42px;
-    letter-spacing: -1.05px;
+    font-size: 48px;
+    letter-spacing: -1.2px;
   }
 
   .count__label {
-    font-size: 12px;
+    font-size: 13.5px;
   }
 
   .remnants__btn {
@@ -421,16 +485,16 @@
   }
 
   .remnant__name {
-    font-size: 13.5px;
+    font-size: 15px;
   }
 
   .remnant__size {
-    font-size: 10.5px;
+    font-size: 12px;
   }
 
   .remnant__spec {
     margin-top: 4.5px;
-    font-size: 10.5px;
+    font-size: 12px;
   }
 
   .quote__panel {
@@ -456,11 +520,11 @@
   }
 
   .contact__label {
-    font-size: 9.75px;
+    font-size: 11.25px;
   }
 
   .contact__value {
-    font-size: 13.5px;
+    font-size: 15px;
   }
 
   .form {
@@ -483,11 +547,11 @@
   }
 
   .attach__title {
-    font-size: 12px;
+    font-size: 13.5px;
   }
 
   .attach__hint {
-    font-size: 10.5px;
+    font-size: 12px;
   }
 
   .form__submit {
@@ -497,10 +561,6 @@
 
   .form__link {
     text-underline-offset: 1.5px;
-  }
-
-  .form__status {
-    font-size: 10.5px;
   }
 
   .faq__inner {
@@ -523,8 +583,8 @@
   .faq-item__btn {
     gap: 18px;
     padding: 21px 0;
-    font-size: 16.5px;
-    letter-spacing: -0.083px;
+    font-size: 18px;
+    letter-spacing: -0.09px;
   }
 
   .faq-item.is-open .faq-item__btn {
@@ -534,7 +594,7 @@
   .faq-item__a {
     max-width: 570px;
     padding-bottom: 21px;
-    font-size: 12.75px;
+    font-size: 14.25px;
   }
 
   .cta {
@@ -553,6 +613,53 @@
 
   .cta__buttons {
     gap: 12px;
+  }
+
+  .modal {
+    width: 480px;
+    max-width: calc(100% - 30px);
+    max-height: calc(100% - 30px);
+    padding: 36px;
+    translate: 0 18px;
+  }
+
+  .modal__close {
+    top: 30px;
+    right: 33px;
+    width: 33px;
+    height: 33px;
+  }
+
+  .modal__title {
+    font-size: 36px;
+    letter-spacing: -0.72px;
+  }
+
+  .modal__text {
+    margin-top: 10.5px;
+    font-size: 14.25px;
+  }
+
+  .modal__fields {
+    gap: 15px;
+    margin-top: 24px;
+  }
+
+  .modal__submit {
+    margin-top: 24px;
+  }
+
+  .modal__note {
+    margin-top: 10.5px;
+  }
+
+  .modal__check + .modal__title {
+    margin-top: 21px;
+  }
+
+  .modal__actions {
+    gap: 12px;
+    margin-top: 24px;
   }
   /* laptop:generated:end */
 

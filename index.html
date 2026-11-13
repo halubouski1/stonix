@@ -27,7 +27,7 @@
       </nav>
       <div class="header__actions">
         <a class="header__phone" href="tel:+12060000000"><span class="icon icon--phone-sm" aria-hidden="true"></span>(206) 000-0000</a>
-        <a class="btn btn--primary btn--sm" href="#quote">Get a free quote</a>
+        <a class="btn btn--primary btn--sm" href="#quote" data-modal-open>Get a free quote</a>
       </div>
     </div>
   </header>
@@ -41,7 +41,7 @@
         <h1 class="title title--xl">Stone countertops <br class="br-design">for Seattle homes</h1>
         <p class="hero__lead">Quartz, granite, marble and quartzite. We measure, fabricate <br class="br-design">and install kitchen and bath countertops from our own slab stock.</p>
         <div class="hero__actions">
-          <a class="btn btn--primary" href="#quote">Get a free quote</a>
+          <a class="btn btn--primary" href="#quote" data-modal-open>Get a free quote</a>
           <a class="btn btn--outline" href="tel:+12060000000">Call (206) 000-0000</a>
         </div>
         <p class="note hero__note">Free estimate. No obligation.</p>
@@ -141,6 +141,71 @@
       </div>
     </section>
 
+    <section class="section work" id="work" aria-labelledby="work-title">
+      <div class="container work__head">
+        <div class="work__intro">
+          <h2 class="title" id="work-title">Our work</h2>
+          <p class="lead section__lead">Kitchens, islands and baths we have templated, cut <br class="br-design">and installed. A few recent projects from our crew.</p>
+        </div>
+        <div class="work__arrows">
+          <button class="round-btn" type="button" aria-label="Previous projects" aria-controls="work-track" data-work-prev><span class="icon icon--prev" aria-hidden="true"></span></button>
+          <button class="round-btn" type="button" aria-label="Next projects" aria-controls="work-track" data-work-next><span class="icon icon--next" aria-hidden="true"></span></button>
+        </div>
+      </div>
+      <div class="work__viewport" role="region" aria-label="Our work gallery" tabindex="0" data-work-viewport>
+        <ul class="work__track" id="work-track">
+          <li class="work-card work-card--wide">
+            <figure>
+              <div class="work-card__media"><picture><source type="image/avif" srcset="assets/images/work-1-675.avif 675w, assets/images/work-1-900.avif 900w, assets/images/work-1-1350.avif 1350w, assets/images/work-1-1800.avif 1800w" sizes="(min-width: 1920px) 900px, 675px"><img class="work-card__img" src="assets/images/work-1-1800.webp" srcset="assets/images/work-1-675.webp 675w, assets/images/work-1-900.webp 900w, assets/images/work-1-1350.webp 1350w, assets/images/work-1-1800.webp 1800w" sizes="(min-width: 1920px) 900px, 675px" width="760" height="600" alt="" loading="lazy" decoding="async"></picture></div>
+              <figcaption class="work-card__caption">Quartzite island with sink cutout</figcaption>
+            </figure>
+          </li>
+          <li class="work-card work-card--narrow">
+            <figure>
+              <div class="work-card__media"><picture><source type="image/avif" srcset="assets/images/work-2-675.avif 675w, assets/images/work-2-900.avif 900w, assets/images/work-2-1350.avif 1350w, assets/images/work-2-1800.avif 1800w" sizes="(min-width: 1920px) 900px, 675px"><img class="work-card__img" src="assets/images/work-2-1800.webp" srcset="assets/images/work-2-675.webp 675w, assets/images/work-2-900.webp 900w, assets/images/work-2-1350.webp 1350w, assets/images/work-2-1800.webp 1800w" sizes="(min-width: 1920px) 900px, 675px" width="440" height="600" alt="" loading="lazy" decoding="async"></picture></div>
+              <figcaption class="work-card__caption">Marble double vanity</figcaption>
+            </figure>
+          </li>
+          <li class="work-card">
+            <figure>
+              <div class="work-card__media"><picture><source type="image/avif" srcset="assets/images/work-3-675.avif 675w, assets/images/work-3-900.avif 900w, assets/images/work-3-1350.avif 1350w, assets/images/work-3-1800.avif 1800w" sizes="(min-width: 1920px) 900px, 675px"><img class="work-card__img" src="assets/images/work-3-1800.webp" srcset="assets/images/work-3-675.webp 675w, assets/images/work-3-900.webp 900w, assets/images/work-3-1350.webp 1350w, assets/images/work-3-1800.webp 1800w" sizes="(min-width: 1920px) 900px, 675px" width="620" height="600" alt="" loading="lazy" decoding="async"></picture></div>
+              <figcaption class="work-card__caption">White quartz island and perimeter</figcaption>
+            </figure>
+          </li>
+          <li class="work-card work-card--narrow">
+            <figure>
+              <div class="work-card__media"><picture><source type="image/avif" srcset="assets/images/work-4-800.avif 800w, assets/images/work-4-1067.avif 1067w, assets/images/work-4-1600.avif 1600w, assets/images/work-4-1800.avif 1800w" sizes="(min-width: 1920px) 1067px, 800px"><img class="work-card__img" src="assets/images/work-4-1800.webp" srcset="assets/images/work-4-800.webp 800w, assets/images/work-4-1067.webp 1067w, assets/images/work-4-1600.webp 1600w, assets/images/work-4-1800.webp 1800w" sizes="(min-width: 1920px) 1067px, 800px" width="440" height="600" alt="" loading="lazy" decoding="async"></picture></div>
+              <figcaption class="work-card__caption">Black quartz with gold veining</figcaption>
+            </figure>
+          </li>
+          <li class="work-card">
+            <figure>
+              <div class="work-card__media"><picture><source type="image/avif" srcset="assets/images/work-5-675.avif 675w, assets/images/work-5-900.avif 900w, assets/images/work-5-1350.avif 1350w, assets/images/work-5-1800.avif 1800w" sizes="(min-width: 1920px) 900px, 675px"><img class="work-card__img" src="assets/images/work-5-1800.webp" srcset="assets/images/work-5-675.webp 675w, assets/images/work-5-900.webp 900w, assets/images/work-5-1350.webp 1350w, assets/images/work-5-1800.webp 1800w" sizes="(min-width: 1920px) 900px, 675px" width="620" height="600" alt="" loading="lazy" decoding="async"></picture></div>
+              <figcaption class="work-card__caption">Waterfall island, honed finish</figcaption>
+            </figure>
+          </li>
+          <li class="work-card work-card--narrow">
+            <figure>
+              <div class="work-card__media"><picture><img class="work-card__img" src="assets/images/work-6-960.webp" srcset="assets/images/work-6-360.webp 360w, assets/images/work-6-480.webp 480w, assets/images/work-6-720.webp 720w, assets/images/work-6-960.webp 960w" sizes="(min-width: 1920px) 480px, 360px" width="440" height="600" alt="" loading="lazy" decoding="async"></picture></div>
+              <figcaption class="work-card__caption">Floating stone vanity shelf</figcaption>
+            </figure>
+          </li>
+          <li class="work-card">
+            <figure>
+              <div class="work-card__media"><picture><source type="image/avif" srcset="assets/images/work-7-675.avif 675w, assets/images/work-7-900.avif 900w, assets/images/work-7-1350.avif 1350w, assets/images/work-7-1800.avif 1800w" sizes="(min-width: 1920px) 900px, 675px"><img class="work-card__img" src="assets/images/work-7-1800.webp" srcset="assets/images/work-7-675.webp 675w, assets/images/work-7-900.webp 900w, assets/images/work-7-1350.webp 1350w, assets/images/work-7-1800.webp 1800w" sizes="(min-width: 1920px) 900px, 675px" width="620" height="600" alt="" loading="lazy" decoding="async"></picture></div>
+              <figcaption class="work-card__caption">Leathered granite at the sink</figcaption>
+            </figure>
+          </li>
+          <li class="work-card">
+            <figure>
+              <div class="work-card__media"><picture><source type="image/avif" srcset="assets/images/work-8-675.avif 675w, assets/images/work-8-900.avif 900w, assets/images/work-8-1350.avif 1350w, assets/images/work-8-1800.avif 1800w" sizes="(min-width: 1920px) 900px, 675px"><img class="work-card__img" src="assets/images/work-8-1800.webp" srcset="assets/images/work-8-675.webp 675w, assets/images/work-8-900.webp 900w, assets/images/work-8-1350.webp 1350w, assets/images/work-8-1800.webp 1800w" sizes="(min-width: 1920px) 900px, 675px" width="620" height="600" alt="" loading="lazy" decoding="async"></picture></div>
+              <figcaption class="work-card__caption">Calacatta backsplash and counters</figcaption>
+            </figure>
+          </li>
+        </ul>
+      </div>
+    </section>
+
     <section class="section process" id="process" aria-labelledby="process-title">
       <div class="container">
         <div class="process__band">
@@ -174,7 +239,7 @@
             </li>
           </ol>
           <div class="process__cta">
-            <a class="btn btn--primary" href="#quote">Get a free quote</a>
+            <a class="btn btn--primary" href="#quote" data-modal-open>Get a free quote</a>
             <p class="note">Free estimate. No obligation.</p>
           </div>
         </div>
@@ -240,7 +305,7 @@
           </div>
 
           <!-- No backend yet: main.js validates and shows the status line; set `action` when an endpoint exists. -->
-          <form class="form" novalidate data-form>
+          <form class="form" novalidate data-form="inline">
             <div class="form__row">
               <div class="field">
                 <label class="field__label" for="f-name">Full name</label>
@@ -313,7 +378,6 @@
               <button class="btn btn--primary" type="submit">Get a free quote</button>
               <p class="note form__note">Free estimate. No obligation. <br class="br-design">By sending, you agree to our <a href="#" class="form__link">privacy policy</a>.</p>
             </div>
-            <p class="form__status" role="status" data-form-status></p>
           </form>
         </div>
       </div>
@@ -368,7 +432,7 @@
           <h2 class="title title--cta" id="cta-title">Ready to choose <br class="br-design">your stone?</h2>
           <div class="cta__side">
             <div class="cta__buttons">
-              <a class="btn btn--primary" href="#quote">Get a free quote</a>
+              <a class="btn btn--primary" href="#quote" data-modal-open>Get a free quote</a>
               <a class="btn btn--outline" href="https://stonixwa.com/stock" target="_blank" rel="noopener">Browse remnants<span class="icon icon--arrow" aria-hidden="true"></span></a>
             </div>
             <p class="note">Free estimate. No obligation.</p>
@@ -402,7 +466,7 @@
           <ul class="footer__list">
             <li><a href="https://stonixwa.com/stock" target="_blank" rel="noopener">Remnants in stock</a></li>
             <li><a href="#materials">Full slabs</a></li>
-            <li><a href="#quote">Get a free quote</a></li>
+            <li><a href="#quote" data-modal-open>Get a free quote</a></li>
           </ul>
         </nav>
         <div class="footer__col">
@@ -428,5 +492,63 @@
       </div>
     </div>
   </footer>
+  <dialog class="modal" aria-labelledby="modal-title" data-modal>
+    <button class="round-btn modal__close" type="button" aria-label="Close" data-modal-close><span class="icon icon--close" aria-hidden="true"></span></button>
+
+    <div class="modal__view" data-modal-view="form">
+      <h2 class="modal__title" id="modal-title">Get a free quote</h2>
+      <p class="modal__text">Leave your contacts and we will call you <br class="br-design">to discuss the project and the price.</p>
+      <!-- No backend yet: main.js validates and shows the "sent" view; set `action` when an endpoint exists. -->
+      <form novalidate data-form="modal">
+        <div class="modal__fields">
+          <div class="field">
+            <label class="field__label" for="m-name">Full name</label>
+            <input class="field__control" id="m-name" name="name" type="text" autocomplete="name" placeholder="Jane Cooper" required data-validate="required" aria-describedby="m-name-err">
+            <span class="field__error" id="m-name-err"></span>
+          </div>
+          <div class="field">
+            <label class="field__label" for="m-phone">Phone</label>
+            <input class="field__control" id="m-phone" name="phone" type="tel" autocomplete="tel" placeholder="(206) 555-0100" required data-validate="phone" aria-describedby="m-phone-err">
+            <span class="field__error" id="m-phone-err"></span>
+          </div>
+          <div class="field field--select">
+            <label class="field__label" for="m-project">Project type</label>
+            <div class="field__select">
+              <select class="field__control" id="m-project" name="project">
+                <option value="" selected>Kitchen countertops</option>
+                <option>Kitchen countertops</option>
+                <option>Bathroom vanities</option>
+                <option>Islands and waterfall edges</option>
+                <option>Fireplace surrounds</option>
+                <option>Wall cladding</option>
+                <option>Outdoor kitchens</option>
+                <option>Commercial or multifamily</option>
+                <option>Stone repair</option>
+              </select>
+              <span class="icon icon--chevron" aria-hidden="true"></span>
+            </div>
+          </div>
+          <label class="attach">
+            <input class="visually-hidden" type="file" name="files" multiple accept=".pdf,.jpg,.jpeg,.png,application/pdf,image/jpeg,image/png" data-attach>
+            <span class="icon icon--clip" aria-hidden="true"></span>
+            <span class="attach__title">Attach a drawing or photos</span>
+            <span class="attach__hint" data-attach-hint data-default="optional">optional</span>
+          </label>
+        </div>
+        <button class="btn btn--primary btn--block modal__submit" type="submit">Get a free quote</button>
+        <p class="note modal__note">Free estimate. No obligation. By sending, you agree to our <a class="form__link" href="#">privacy policy</a>.</p>
+      </form>
+    </div>
+
+    <div class="modal__view" data-modal-view="sent" hidden>
+      <span class="icon icon--check modal__check" aria-hidden="true"></span>
+      <h2 class="modal__title" id="modal-sent-title" tabindex="-1">Thank you, your <br class="br-design">request is in</h2>
+      <p class="modal__text">We will call you during business hours to confirm <br class="br-design">the details and book a time for templating.</p>
+      <div class="modal__actions">
+        <button class="btn btn--primary" type="button" data-modal-close>Back to the site</button>
+        <a class="btn btn--outline" href="https://stonixwa.com/stock" target="_blank" rel="noopener">Browse remnants<span class="icon icon--arrow" aria-hidden="true"></span></a>
+      </div>
+    </div>
+  </dialog>
 </body>
 </html>
